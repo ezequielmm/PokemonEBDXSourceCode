@@ -1,0 +1,16 @@
+[2025-03-23 21:20:00] Iniciando carga de scripts desde Plugins/Decompiled
+[2025-03-23 21:20:00] Directorio encontrado: Plugins/Decompiled
+[2025-03-23 21:20:00] Archivos encontrados: 403
+[2025-03-23 21:20:00] === Cargando: Plugins/Decompiled/000_Loader.rb ===
+[2025-03-23 21:20:00] Preview:
+# Plugins/Decompiled/000_Loader.rb
+module RPG
+  class Script [...]
+[2025-03-23 21:20:01] !! ERROR: ERROR en Plugins/Decompiled/000_Loader.rb
+[2025-03-23 21:20:01] Tipo: SystemStackError
+[2025-03-23 21:20:01] Mensaje: stack level too deep
+[2025-03-23 21:20:01] Backtrace:
+[2025-03-23 21:20:01] !! ERROR: FATAL: Error durante la carga inicial
+[2025-03-23 21:20:01] Tipo: NoMethodError
+[2025-03-23 21:20:01] Mensaje: undefined method `first' for nil:NilClass
+[2025-03-23 21:20:01] Backtrace:
