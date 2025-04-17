@@ -37,7 +37,8 @@ module RMXOS
     # * Extender Game_Player
     #--------------------------------------------------------------------------
     def self.extend_game_player
-      class ::Game_Player
+      # Extender la clase Game_Player usando monkey patching
+      Game_Player.class_eval do
         alias rmxos_player_update update
         
         def update
